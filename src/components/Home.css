@@ -1,0 +1,59 @@
+.homepage {
+  width: 100%;
+  height: calc(100vh - 80px);
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.homepage .postContents {
+  width: 600px;
+  height: auto;
+  max-height: 600px;
+  background: #fff;
+  box-shadow: 0px 0px 15px -5px #777777;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.postHeader h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.postContents .postTextContainer {
+  height: auto;
+  word-wrap: break-word;
+  max-height: 400px;
+  width: 100%;
+}
+
+.nameAndDeleteButton {
+  display: flex;
+  align-items: center;
+}
+.nameAndDeleteButton button {
+  flex: 10%;
+  background: rgb(255, 111, 111);
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 3px;
+  border: none;
+  transition: all 0.3s;
+  box-shadow: 0px 0px 15px -5px #777777;
+  border-radius: 10px;
+}
+
+.nameAndDeleteButton button:hover {
+  background: rgb(255, 35, 35);
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+.nameAndDeleteButton h3 {
+  flex: 90%;
+}
