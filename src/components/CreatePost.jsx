@@ -6,6 +6,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { db } from "../firebase";
 import { useNavigate } from "react-router-dom";
 
+// eslint-disable-next-line react/prop-types
 const Createpost = ({ isAuth }) => {
   const [title, setTitle] = useState("");
   const [postText, setPostText] = useState("");
